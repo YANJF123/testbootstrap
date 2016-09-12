@@ -7,9 +7,5 @@
 *.iml
 out
 gen
-
-
 node_modules
-index.html
-mycss/
-package.json
+
