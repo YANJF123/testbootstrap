@@ -9,3 +9,9 @@ gen
 node_modules
 .idea
 
+.idea/copyright/
+.idea/jsLibraryMappings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+

@@ -1,0 +1,17 @@
+$nav-background:#666666;
+$nav:#666666;
+$nav-width:1000px;
+$nav-height:50px;
+$font-color:#fff;
+.nav-background{
+   background: $nav-background;
+ }
+.nav-y{
+  background: $nav;
+  width:$nav-width;
+  height: $nav-height;
+  color: $font-color;
+}
+.navbar-header{
+
+}
