@@ -1,17 +1,30 @@
-$nav-background:#666666;
+$nav-background: #386166;
 $nav:#666666;
 $nav-width:1000px;
 $nav-height:50px;
 $font-color:#fff;
 .nav-background{
    background: $nav-background;
+  height: 100px;
+  padding-top: 25px;
+  font-size: 20px;
  }
+.log{
+  font-size: 28px;
+}
 .nav-y{
   background: $nav;
   width:$nav-width;
   height: $nav-height;
   color: $font-color;
 }
+
 .navbar-header{
 
 }
+
+
+.we{
+  border-bottom: 1px solid rgba(57, 57, 57, 0.91);
+}
+

@@ -1,21 +1,27 @@
 @import "nav.scss";
-
-a {
-  color: $font-color;
+@import "footer.scss";
+body{
+  background-color: #fff;
 }
 
+
+
+.nav-font-color{
+  a {
+    color: $font-color;
+  }
+}
 .container-padding-top-60 {
-  margin-top: 60px;
+  margin-top: 120px;
 }
 
-.btn {
+.btn-g {
   /*border-radius: 0 !important; */
   color: #000;
   border: 1px solid #3366CC;
   transition: all 0.5s ease-in-out;
 }
-
-.btn:hover {
+.btn-g:hover {
   transform: scale(1.1);
   color: #000;
 }
@@ -34,6 +40,9 @@ a {
   color: brown;
   font-size: 50px;
 }
+.bz{
+color: #a50401;
+}
 .su{
   padding-top: 30px;
 }
@@ -43,14 +52,52 @@ a {
   background-color: aliceblue;
   overflow: hidden;
 }
-img {
-  max-width: 100%;
-  width: 100%;
-  transition:all 0.8s ease-in-out;
+.su{
+  img {
+    max-width: 100%;
+    width: 100%;
+    transition:all 0.8s ease-in-out;
+    margin-bottom: 10px;
+  }
+  img:hover{
+    transform:scale(1.3) rotate(-13deg);
+  }
 }
-img:hover{
-  transform: scale(1.3) rotate(-13deg);
+.re-lj-nav{
+  background: transparent;
 }
-.blockquote-color{
-  color: brown;
+.re-ol{
+  background: transparent;
+  font-size: 16px;
+  padding-top:13px;
+  a{
+    color: #666666;
+  }
+}
+.tp{
+  background: transparent;
+  padding-bottom: 10px;
+}
+.re-xia{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.re-xia-zzm{
+  float: left;
+}
+.re-xia-tb{
+  float: right;
+  padding-right: 80px;
+  a{
+color: black;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+}
+.row-ju{
+  margin-top:20px;
+}
+.ty{
+  padding-bottom: 0;
 }
