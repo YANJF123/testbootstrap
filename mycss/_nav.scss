@@ -5,9 +5,11 @@ $nav-height:50px;
 $font-color:#fff;
 .nav-background{
    background: $nav-background;
-  height: 100px;
-  padding-top: 25px;
+  //height: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 20px;
+
  }
 .log{
   font-size: 28px;
@@ -18,13 +20,24 @@ $font-color:#fff;
   height: $nav-height;
   color: $font-color;
 }
+button{
+  color: #dffffc;
+  padding: 0 0 !important;
+  margin: 0 20px !important;
+}
+.nav-menu{
 
-.navbar-header{
+  li{
+
+  }
+ li:hover {
+background: #ffffff;
+   color: black;
+ }
 
 }
-
-
 .we{
   border-bottom: 1px solid rgba(57, 57, 57, 0.91);
 }
+
 
