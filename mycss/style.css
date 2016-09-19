@@ -88,6 +88,15 @@ section .warp {
 .ko {
   background-color: #a50401; }
 
+.re .re-xia-t h2 {
+  font-size: 20px; }
+.re .re-xia-t ul {
+  float: right; }
+
+.yu {
+  float: left;
+  padding-right: 15px; }
+
 body {
   background-color: #f7f7f7; }
 
@@ -169,10 +178,10 @@ body {
 .re-xia-tb {
   float: right;
   padding-right: 80px; }
-  .re-xia-tb a {
+  .re-xia-tb li {
     color: black;
     text-decoration: none;
-    padding-left: 15px;
+    padding-right: 10px;
     font-size: 18px; }
 
 .row-ju {
