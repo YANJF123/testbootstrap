@@ -1,41 +1,102 @@
 section {
-
   .warp {
     width: 1000px;
-    background-color: #fff;
+    background-color: darken(#ffffff, 6%);
     h2 {
       padding: 0 23px;
     }
     p {
       padding: 0 35px;
     }
-    blockquote {
-      padding: 0 3px;
-      margin: 20px 30px;
-      font-size: 17.5px;
-      border-left: 5px solid #da2d2d;
-    }
+
   }
 
 }
-.ko{
+
+blockquote {
+  padding: 0 15px;
+  margin: 20px 0;
+  font-size: 17.5px;
+  border-left: 5px solid #da2d2d;
+}
+
+.ko {
   background-color: #a50401;
 
 }
-.re{
 
-  .re-xia-t{
+.re {
 
-    h2{
+  .re-xia-t {
+
+    h2 {
       font-size: 20px;
     }
-    ul{
+    ul {
 
-      float:right;
+      float: right;
     }
   }
 }
-.yu{
+
+.zuozhetouxian {
   float: left;
-padding-right: 15px;
+  padding-right: 15px;
+}
+
+.yemianbiji {
+  background: #ffffff;
+}
+
+.yemianbiji-1 {
+  background: #ffffff;
+  height: 100px;
+}
+
+.right {
+  margin-left: 15px;
+  .right-top {
+    background-color: #ffffff;
+    h4 {
+      font-size: 25px;
+      background: #4176B9;
+      padding: 10px 0;
+    }
+    img {
+      padding: 5px 15px;
+    }
+    p {
+      padding: 5px 15px;
+    }
+  }
+  .right-zhong {
+    font-size: 17px;
+    color: #170f02;
+    ul li {
+      line-height: 30px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
+    }
+  }
+  .right-button {
+    background-color: #3366CC;
+    //padding: 15px;
+    //left: 10%;
+    .bz{
+      background: transparent;
+      color: #a50515;
+      font-size: 55px;
+      border: 0;
+    }
+   //display: none;
+
+  }
+  .eu{
+    width: 345px;
+    position: fixed;
+    padding: 0 6px;
+    z-index: 200;
+  }
 }

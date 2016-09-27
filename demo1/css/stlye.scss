@@ -1,0 +1,53 @@
+
+body{
+background-image: url("../imgers/bj.jpg");
+  padding-bottom: 70px;
+}
+.navbar-default{
+  border: transparent;
+}
+.btn-warning {
+  color: #fff;
+  background-color: #D74948;
+  border-color: #D74948;
+}
+
+.bottom-100{
+ /* position: fixed;
+  z-index: 1030;*/
+  background: transparent;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  .b-lg{
+    margin: 15px 10px;
+    padding: 10px 10px!important;
+
+  }
+}
+.text-center{
+  .biaozhi {
+    color: brown;
+    font-size: 50px;
+    background: transparent;
+    border: 0 solid #fff;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+.thumbnail {
+  padding: 0;
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
+  overflow: hidden;
+}
+.su {
+  img {
+    max-width: 100%;
+    width: 100%;
+    transition: all 0.8s ease-in-out;
+    margin-bottom: 10px;
+  }
+  img:hover {
+    transform: scale(1.3) rotate(-13deg);
+  }
+}
